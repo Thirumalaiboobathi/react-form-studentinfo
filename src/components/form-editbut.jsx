@@ -191,7 +191,7 @@ const FormComponent = () => {
       </form>
 
       {submittedData.length > 0 && (
-        <table style={{ borderCollapse: 'collapse', border: '1px solid black', marginLeft: '460px' }}>
+        <table style={{ borderCollapse: 'collapse', border: '1px solid black', marginLeft: '10px' }}>
           <thead style={{ background: '#264653', color: 'white' }}>
  <tr>
               {Object.keys(submittedData[0]).map((key) => (
