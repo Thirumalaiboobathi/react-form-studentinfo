@@ -42,7 +42,7 @@ const FormComponent = () => {
   
     const currentSubmissionData = {
       ...formData,
-      languages: Array.isArray(formData.languages) ? formData.languages.join(', ') : '', // Join languages into a string for display
+      languages: Array.isArray(formData.languages) ? formData.languages.join(', ') : '', // Join languages into a string 
     };
   
     if (editRowIndex !== null) {
@@ -60,7 +60,7 @@ const FormComponent = () => {
       name: '',
       age: '',
       dob: '',
-      languages: [], // Reset languages to an empty array
+      languages: [], 
       city: '',
       gender: '',
       comment: '',
@@ -204,8 +204,6 @@ const FormComponent = () => {
           <tbody>
             {submittedData.map((data, index) => (
               <tr key={index}>
-                {/* Table rows */}
-                {/* ... */}
                 {Object.values(data).map((value, index) => (
                     <td
                       key={index}
