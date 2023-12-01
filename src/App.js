@@ -1,6 +1,6 @@
 
 import './App.css';
-import FormComponent from './components/calculator';
+import FormComponent from './components/form-editbut';
 
 
 function App() {
